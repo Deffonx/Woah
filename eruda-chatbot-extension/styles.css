@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    width: 300px;
+}
+
+.chatbot-header {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.chat-output {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.ai-message {
+    display: flex;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+
+.ai-icon {
+    margin-right: 10px;
+}
+
+.user-message {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px 0;
+}
+
+.user-icon {
+    margin-left: 10px;
+}
+
+.message-content {
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    max-width: 70%;
+}
+
+.code-block {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    position: relative;
+    margin: 10px 0;
+}
+
+.code-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.copy-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #007bff;
+    font-size: 1em;
+}
+
+.customize-btn {
+    margin-top: 10px;
+}
+
+.chat-input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.send-btn, .customize-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
