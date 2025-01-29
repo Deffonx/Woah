@@ -1,5 +1,0 @@
-# Usage:
-# pip install -r requirements-cpu.txt -f https://download.pytorch.org/whl/nightly/cpu/torch_nightly.html
-
-torch
-torchvision
